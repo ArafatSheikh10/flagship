@@ -747,6 +747,8 @@
 
     .mobail__list-item .search__btn img {
         width: 18px;
+        margin-top: 1px;
+        margin-left: 1px;
     }
     
     .search__modal form {
