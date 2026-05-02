@@ -377,7 +377,8 @@ textarea {
   background-color: #fff;
   padding: 20px;
   border-radius: 10px;
-  margin: 10px;
+  margin: 15px 10px 10px 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .mobail__header-inner .header__logo a {
@@ -684,9 +685,13 @@ textarea {
   overflow-x: hidden;
 }
 
+.product__card-wraper {
+  scrollbar-width: thin;
+  scrollbar-color: #F90 #EAEAEA;
+}
+
 .product__card-wraper::-webkit-scrollbar {
   width: 6px;
-  background-color: #EAEAEA;
 }
 
 .product__card-wraper::-webkit-scrollbar-track {
@@ -944,7 +949,7 @@ textarea {
 }
 
 .promo__content{
-  padding-left: 342px;
+  padding-left: 335px;
 }
 
 .promo__content p{
@@ -1040,9 +1045,17 @@ textarea {
   z-index: 1;
 }
 
+.news__area .container{
+  max-width: 1790px;
+}
+
 .news__card-wraper{
   max-width: 770px;
   margin-top: 30px;
+}
+
+.news__left-block {
+  padding-left: 335px;
 }
 
 .news__card{
@@ -1107,7 +1120,7 @@ textarea {
   position: absolute;
   top: 0;
   right: 0;
-  width: 50%;
+  width: 52%;
   height: 950px;
   z-index: -1;
 }

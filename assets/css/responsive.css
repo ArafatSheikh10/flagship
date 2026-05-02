@@ -2,6 +2,14 @@
 
 @media screen and (max-width: 1620px) {
 
+    .promo__package-item .promo__content {
+        padding-right: 0;
+    }
+
+    .news__left-block {
+        padding-left: 0;
+    }
+
 }
 
 @media screen and (max-width: 1449px) {
@@ -18,16 +26,12 @@
         padding-left: 0;
     }
 
-    .promo__package-item .promo__content {
-        padding-right: 0;
-    }
-
     .news__image-item {
-        height: 1015px;
+        height: 958px;
     }
 
     .news__image-carousel .owl-nav {
-        bottom: -50px;
+        bottom: 13px;
     }
 
 }
@@ -93,11 +97,6 @@
 
     .hero__thumb {
         height: 234px;
-    }
-
-    .hero__btns a {
-        padding: 24px;
-        font-size: 19px;
     }
 
     .hero__traveler-text p {
@@ -230,7 +229,7 @@
     }
 
     .news__image-carousel .owl-nav {
-        bottom: -23px;
+        bottom: 25px;
     }
 
     .testimonial {
@@ -794,8 +793,10 @@
     }
 
     .hero__btns a {
-        padding: 23px;
-        font-size: 19px;
+        padding: 18px;
+        font-size: 17px;
+        width: 53%;
+        margin: auto;
     }
 
     .hero__traveler-box {
