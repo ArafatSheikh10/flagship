@@ -730,12 +730,12 @@
 
     .secondary__btn {
         font-size: 14px;
-        padding: 11px 37px 11px 42px;
+        padding: 10px 20px 10px 22px;
     }
 
     .primary__btn {
         font-size: 16px;
-        padding: 9px 34px 10px 30px;
+        padding: 9px 20px 9px 20px;
     }
 
     .mobail__list-item {
@@ -749,6 +749,15 @@
 
     .mobail__list-item .search__btn img {
         width: 18px;
+    }
+    
+    .search__modal form {
+        width: 90%;
+    }
+
+    .search__submit-btn {
+        padding: 9px 20px;
+        font-size: 14px;
     }
 
     .hero__area {
