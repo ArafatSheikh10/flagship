@@ -795,7 +795,7 @@
     .hero__btns a {
         padding: 18px;
         font-size: 17px;
-        width: 53%;
+        width: 72%;
         margin: auto;
     }
 
@@ -902,6 +902,10 @@
     .video__play-button:before {
         width: 95px;
         height: 95px;
+    }
+
+    .video__play-button span {
+        margin-top: 5px;
     }
 
     .promo__area {

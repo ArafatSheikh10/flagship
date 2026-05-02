@@ -692,6 +692,7 @@ textarea {
 
 .product__card-wraper::-webkit-scrollbar {
   width: 6px;
+  background-color: transparent;
 }
 
 .product__card-wraper::-webkit-scrollbar-track {
