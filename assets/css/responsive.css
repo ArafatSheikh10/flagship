@@ -398,7 +398,6 @@
     }
 
     .product__card-wraper {
-        padding-right: 10px;
         gap: 40px;
     }
 
@@ -828,7 +827,6 @@
     }
 
     .product__card-wraper {
-        padding-right: 10px;
         gap: 35px;
     }
 
@@ -1055,6 +1053,10 @@
 
     .footer__inner {
         row-gap: 36px;
+    }
+
+    .footer__identity {
+        margin-top: -38px;
     }
 
     .footer__social-icons a {

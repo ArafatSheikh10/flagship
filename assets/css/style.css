@@ -685,25 +685,45 @@ textarea {
   overflow-x: hidden;
 }
 
+.scroll-wrapper {
+  position: relative;
+  display: flex;
+  gap: 10px;
+  height: 832px;
+}
+
 .product__card-wraper {
-  scrollbar-width: thin;
-  scrollbar-color: #F90 #EAEAEA;
+  flex: 1;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 .product__card-wraper::-webkit-scrollbar {
+  display: none;
+}
+
+.custom-track {
   width: 6px;
-  background-color: transparent;
+  background: #EAEAEA;
+  border-radius: 10px;
+  position: relative;
+  flex-shrink: 0;
 }
 
-.product__card-wraper::-webkit-scrollbar-track {
-  background-color: #EAEAEA;
+.custom-thumb {
+  width: 6px;
+  height: 100px; 
+  background: #F90;
   border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
 }
 
-.product__card-wraper::-webkit-scrollbar-thumb {
-  background-color: #F90;
-  border-radius: 10px;
-  min-height: 80px;
+.custom-thumb:hover {
+  background: #e68a00;
 }
 
 .product__card-image {
@@ -1438,12 +1458,6 @@ textarea {
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
-}
-
-.hero {
-  padding-top: 482px;
-  background-size: cover;
-  background-position: 100% 100%;
 }
 
 /* ------------------------------ FOOTER AREA END ------------------------ */
